@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-list-joinedteams-client-side-solution",
+    "id": "aabd6b90-fb92-4030-b1c6-0e742eb5ca8b",
+    "version": "1.0.0.7",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,  
+    "webApiPermissionRequests": [  
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "User.Read.All"  
+      },  
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "User.ReadWrite.All"  
+      },  
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "Team.ReadBasic.All"  
+      }    
+    ],  
+    "developer": {
+      "name": "Veltwerk B.V.",
+      "websiteUrl": "https://www.veltwerk.nl",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-list-joinedteams.sppkg"
+  }
+}

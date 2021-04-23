@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "52894595-3832-4d03-a33a-f4c3e09be790",
+  "alias": "ListJoinedteamsWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Joined Teams" },
+    "description": { "default": "List of teams that the current user is a member of" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "My Teams",
+      "showIcons": true,
+      "showDummyTeam": true
+    }
+  }]
+}
